@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url(elie-khoury-R-YenNlEjlo-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    margin:auto;
+    margin-top: 100px;
+}
+#head{
+    font-size :1.8em;
+}
+#subhead{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#content1{
+    width: 90%;
+    margin: auto;
+}
+form{
+    color: aliceblue;
+    background-color: rgba(0,0,0,3);
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    height:500%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+form .form-control{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom:10px;
+    border: 0;
+    border-radius: 2px;
+}
+#option1 select{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom:0px;
+    border: 0;
+    border-radius: 2px;
+}
+#option2 .form-check{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    top:10px;
+    border: 0;
+    border-radius: 2px;
+}
+
+#option3 .form-check{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    top:10px;
+    border: 0;
+    border-radius: 2px;
+}
+.suggestion{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    top:10px;
+    border: 0;
+    border-radius: 2px;
+}
+#buttonn{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    bottom: 10px;
+    top: 50px;
+    width: 100%;
+}

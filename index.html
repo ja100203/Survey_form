@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Suurvey_Form</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1 id="head">Skill++ Survey Form</h1>
+        <h2 id="subhead">Thank you for taking the time to improve the freeCodeCamp</h2>
+        <br>
+    </div>
+    <form action="/action_page.php">
+        <div id="content1">
+            <label for="name">What is your name?</label><br><br>
+            <input type="name" class="form-control" id="name" placeholder="Enter your name" name="name">
+            <br>
+            <label for="email">What is your email adress?</label><br><br>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+            <br>
+            <label for="age">What is your age?</label><br><br>
+            <input type="age" class="form-control" id="age" placeholder="Enter your age" name="age">
+            <br>
+            <div id="option1">
+            <label for="sel1" class="form-label">Which option best describe your current role?</label>
+            <select class="form-select" id="sel1" name="sellist1">
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Prefer Not To Say</option>
+                <option>Other</option>
+            </select>
+            <br>
+            <div id="option2">
+            <label for="check" class="form-label">How likely is that you recommend freeCodeCamp to your friend?</label>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                <label class="form-check-label" for="radio1">Definitely</label>
+                </div>
+                <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                <label class="form-check-label" for="radio2">Maybe</label>
+                </div>
+                <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">
+                <label class="form-check-label" for="radio3">Not sure</label>
+              </div>
+            </div>
+              <br>
+              <div id="option3">
+              <label for="check" class="form-label">Things that should we improve in the future(Check all that apply)</label>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label" for="check1">Front-end projects</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+                <label class="form-check-label" for="check2">Back-end projects</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check3" name="option3" value="something">
+                <label class="form-check-label" for="check3">Challenges</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check4" name="option4" value="something">
+                <label class="form-check-label" for="check4">Open Source Community</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check5" name="option5" value="something">
+                <label class="form-check-label" for="check5">Data visualisation</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check6" name="option6" value="something">
+                <label class="form-check-label" for="check6">Additional courses</label>
+              </div>
+              </div>
+              <div class="suggestion">
+                <p>Any comments or suggestions?</p>
+                    <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  <div id="buttonn">
+                  <button type="button" class="btn btn-primary btn-block">Submit</button>
+                  <!--button type="submit" class="btn btn-primary">Submit</button-->
+                  </div>
+              </div>
+              </div>
+        </div>
+    </form>
+</body>
+
+</html>
